@@ -1,7 +1,21 @@
 <template>
   <div class="container">
     <!-- Sidebar -->
-  
+    <aside class="sidebar">
+      <div class="logo">
+        <div class="dot"></div>
+        <h1>PlumbingPro</h1>
+      </div>
+
+      <nav class="menu">
+        <button class="menu-item active">🏠 Dashboard</button>
+        <button class="menu-item">🧰 Jobs</button>
+        <button class="menu-item">👥 Clients</button>
+        <button class="menu-item">👨‍🔧 Plumbers</button>
+        <button class="menu-item">📄 Invoices</button>
+      </nav>
+    </aside>
+
     <!-- Main Content -->
     <main class="content">
       <h2 class="title">Dashboard</h2>
